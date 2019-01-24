@@ -38,7 +38,7 @@ EMAIL_LINK_ENCRYPTION_KEY = secrets.EMAIL_ENCRYPTION_KEY
 MAILGUN_API_KEY = secrets.MAILGUN_API_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '192.168.192.26']
 
